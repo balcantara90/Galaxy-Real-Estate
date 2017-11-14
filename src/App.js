@@ -25,6 +25,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+              <button type="button" className="btn btn-primary">Primary</button>
+
         <Heading />
         <Planets listingOfPlanets={this.state.listingOfPlanets} />
         <header className="App-header">
