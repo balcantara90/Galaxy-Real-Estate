@@ -1,24 +1,26 @@
 import React, { Component } from 'react';
 import PlanetListing from './PlanetListing';
+import SearchFilter from './SearchFilter';
 
 class Planets extends Component {
+  constructor(props){
+    super(props);
+  }
   render() {
-    let planetListings;
-    let planetProps = this.props.listingOfPlanets;
+    let planetListings = this.props.listingOfPlanets;
 
-    if (planetProps){
-        planetListings = planetProps.map(function(planet, index){
-            console.log(planet);
-            return(
-                <PlanetListing key={index} planet={planet} />
-            );
-        })
-    }
+    // Filter planets by name
+/*     let planetsQueriedBySearch = this.props.listingOfPlanets.filter(function(planet){
+      return planet.name.indexOf(this.props.searchQuery) !== -1;
+    }); */
+  
 
     return (
       <div className="planet-listings">
         <div className="row">
-            {planetListings}
+            {planetListings.map(function(planet, index){
+              return <PlanetListing key={index} planet={planet} />;
+            })}
         </div>
       </div>
     );

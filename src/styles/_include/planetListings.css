@@ -1,8 +1,11 @@
+@media (min-width: 992px) {
+  .planet-listings div.col-md-4:nth-child(3n+4) {
+    clear: both; } }
+
 .planet-listings .planet-listings__planet {
-  padding-bottom: 20px; }
-  @media (min-width: 992px) {
-    .planet-listings .planet-listings__planet:nth-child(3n+4) {
-      clear: both; } }
+  margin-bottom: 20px;
+  background-color: #f0ad4e;
+  padding: 20px; }
   .planet-listings .planet-listings__planet .planet-listings__planet__img {
     width: 100%;
     height: 200px;
@@ -14,6 +17,6 @@
       top: 50%;
       height: 100%;
       width: auto;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
+  .planet-listings .planet-listings__planet .planet-listings__planet__currency i {
+    font-size: 0.8em; }
