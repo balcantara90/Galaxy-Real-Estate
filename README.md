@@ -5,7 +5,7 @@
 - All content and imagery displayed on this website contents are copyright to their respective owners - Warner Bros. Television Distribution.
 
 ## Preface
-I was interested in using React to build a website. Since  I was tasked to build a Real Estate page selling Planets I though why not incoporate a [Rick and Morty](http://rickandmorty.wikia.com/wiki/Rickipedia) theme.
+I was tasked to build a fictional Real Estate page selling Planets and I thought why not incoporate a [Rick and Morty](http://rickandmorty.wikia.com/wiki/Rickipedia) theme.
 
 ## Features moving forward
 - Use the Fandom Wikia API and build REST queries to pull the content dynamically from http://rickandmorty.wikia.com/api/v1/#!/Search
