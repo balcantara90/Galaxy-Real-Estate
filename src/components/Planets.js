@@ -27,7 +27,7 @@ class Planets extends Component {
           <div className="col-lg-12">
             <h3>Find your planet now!</h3>
             <div className="p-b-2">
-              <input onChange={this.updateSearch.bind(this)} type="text" className="form-control" value={this.state.searchQuery} placeholder="Search for planet..." />
+              <input onChange={this.updateSearch.bind(this)} type="text" className="form-control" value={this.state.searchQuery} placeholder="Search name..." />
             </div>
           </div>
         </div>
