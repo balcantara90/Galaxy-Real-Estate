@@ -1,0 +1,28 @@
+@import './../bootstrap/stylesheets/bootstrap/_variables.scss'; 
+
+.planet-listings{
+    .planet-listings__planet{
+        @media (min-width: $screen-md-min){
+            &:nth-child(1n){
+                clear: both;
+            }
+        }
+        padding-bottom: 20px;
+        .planet-listings__planet__img{
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            img{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                height: 100%;
+                width: auto;
+                -webkit-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+}
