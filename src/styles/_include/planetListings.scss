@@ -3,7 +3,7 @@
 .planet-listings{
     .planet-listings__planet{
         @media (min-width: $screen-md-min){
-            &:nth-child(1n){
+            &:nth-child(3n+4){
                 clear: both;
             }
         }

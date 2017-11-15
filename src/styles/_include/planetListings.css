@@ -1,7 +1,7 @@
 .planet-listings .planet-listings__planet {
   padding-bottom: 20px; }
   @media (min-width: 992px) {
-    .planet-listings .planet-listings__planet:nth-child(1n) {
+    .planet-listings .planet-listings__planet:nth-child(3n+4) {
       clear: both; } }
   .planet-listings .planet-listings__planet .planet-listings__planet__img {
     width: 100%;
