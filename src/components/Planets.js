@@ -17,7 +17,9 @@ class Planets extends Component {
 
     return (
       <div className="planet-listings">
-        {planetListings}
+        <div className="row">
+            {planetListings}
+        </div>
       </div>
     );
   }

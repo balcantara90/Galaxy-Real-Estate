@@ -8,7 +8,9 @@ class PlanetListing extends Component {
                 <img src={this.props.planet.img} alt={this.props.planet.name} />
                 <h3>{this.props.planet.name} <span className="label label-info">New</span></h3>
                 <p>{this.props.planet.description}</p>
-                <p><a href="#" class="btn btn-default" role="button">View details</a></p>
+                <button type="button" className="btn btn-default btn-md">
+                     View Details
+                </button>
              </a>
       </div>
     );

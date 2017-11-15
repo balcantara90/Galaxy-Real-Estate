@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Heading from './components/Heading';
 import Planets from './components/Planets';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   constructor(){
@@ -27,14 +27,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Heading />
-        <Planets listingOfPlanets={this.state.listingOfPlanets} />
-{/*         <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p> */}
+        <div className="container">
+          <Heading />
+          <Planets listingOfPlanets={this.state.listingOfPlanets} />
+        </div>
       </div>
     );
   }
