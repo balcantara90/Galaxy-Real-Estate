@@ -7,18 +7,17 @@ class Planets extends Component {
     let planetProps = this.props.listingOfPlanets;
 
     if (planetProps){
-        planetListings = planetProps.map(function(planet){
+        planetListings = planetProps.map(function(planet, index){
             console.log(planet);
             return(
-                <PlanetListing planet={planet} />
+                <PlanetListing key={index} planet={planet} />
             );
         })
     }
 
     return (
-
-      <div className="Heading">
-        <h1>Real Estate for Planets</h1>
+      <div className="planet-listings">
+        {planetListings}
       </div>
     );
   }

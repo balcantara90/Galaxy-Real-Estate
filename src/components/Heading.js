@@ -4,7 +4,7 @@ class Heading extends Component {
   render() {
     return (
       <div className="Heading">
-        <h1>Real Estate for Planets</h1>
+        <h1>Rick's Galactic Estate</h1>
       </div>
     );
   }
