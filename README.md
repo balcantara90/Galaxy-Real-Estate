@@ -10,6 +10,7 @@ I wanted to develop my React skills while incorporating one of my favourite show
 ## Features moving forward
 - Use the Fandom Wikia API and build REST queries to pull the content dynamically from http://rickandmorty.wikia.com/api/v1/#!/Search
 - Price range filters to assist with user interaction
+- Introduce modal boxes with further information when users click 'View Details'
 
 ## View Demo
 See a demo of the site [here](http://rge.balcantara.com)
