@@ -5,7 +5,7 @@
 - All content and imagery displayed on this website contents are copyright to their respective owners - Warner Bros. Television Distribution.
 
 ## Preface
-I was tasked to build a fictional Real Estate page selling Planets and I thought why not incoporate a [Rick and Morty](http://rickandmorty.wikia.com/wiki/Rickipedia) theme.
+I wanted to develop my React skills while incorporating one of my favourite shows a [Rick and Morty](http://rickandmorty.wikia.com/wiki/Rickipedia). I've built a fictional Real Estate page selling Planets owned by [Rick Sanchez](http://rickandmorty.wikia.com/wiki/Rick_Sanchez). 
 
 ## Features moving forward
 - Use the Fandom Wikia API and build REST queries to pull the content dynamically from http://rickandmorty.wikia.com/api/v1/#!/Search
