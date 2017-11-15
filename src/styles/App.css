@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* Overwrite Rules */
-/* END Overwrite Rules */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -1057,7 +1057,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -1072,10 +1072,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #333333;
+  color: #d9534f;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #0d0d0d;
+    color: #b52b27;
     text-decoration: underline; }
   a:focus {
     outline: 5px auto -webkit-focus-ring-color;
@@ -3051,7 +3051,7 @@ fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-link {
-  color: #333333;
+  color: #d9534f;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled],
@@ -3062,7 +3062,7 @@ fieldset[disabled] a.btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #0d0d0d;
+    color: #b52b27;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
@@ -3563,7 +3563,7 @@ tbody.collapse.in {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #333333; }
+    border-color: #d9534f; }
   .nav .nav-divider {
     height: 1px;
     margin: 9px 0;
@@ -4083,7 +4083,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.42857;
       text-decoration: none;
-      color: #333333;
+      color: #d9534f;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -4100,7 +4100,7 @@ tbody.collapse.in {
   .pagination > li > span:hover,
   .pagination > li > span:focus {
     z-index: 2;
-    color: #0d0d0d;
+    color: #b52b27;
     background-color: #eeeeee;
     border-color: #ddd; }
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -4268,7 +4268,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   .list-group-item.active > .badge,
   .nav-pills > .active > a > .badge {
-    color: #333333;
+    color: #d9534f;
     background-color: #fff; }
   .list-group-item > .badge {
     float: right; }
@@ -4341,7 +4341,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #333333; }
+  border-color: #d9534f; }
 
 .alert {
   padding: 15px;
@@ -5186,7 +5186,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5299,7 +5299,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5816,6 +5816,16 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  background: #eeeeee; }
+
+.search-filter input {
+  min-width: 320px;
+  width: 70%;
+  height: 4em; }
+
 .m-a-0 {
   margin: 0rem 0rem !important; }
 
@@ -6000,8 +6010,18 @@ button.close {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important; }
 
-.app-header .app-header__title {
-  color: red; }
+.app-header {
+  background: #fff;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 15px; }
+  .app-header .app-header__title {
+    color: #5bc0de;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    border: 5px solid;
+    display: inline-block;
+    padding: 15px 10px 10px; }
 
 @media (min-width: 992px) {
   .planet-listings div.col-md-4:nth-child(3n+4) {
@@ -6009,7 +6029,7 @@ button.close {
 
 .planet-listings .planet-listings__planet {
   margin-bottom: 20px;
-  background-color: #f0ad4e;
+  background-color: #f5ca8d;
   padding: 20px; }
   .planet-listings .planet-listings__planet .planet-listings__planet__img {
     width: 100%;

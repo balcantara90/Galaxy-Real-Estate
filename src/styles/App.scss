@@ -1,11 +1,9 @@
-/* Overwrite Rules */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
-$icon-font-path: './bootstrap/fonts/bootstrap/';
-@import './_include/myVariables.scss';
-
-/* END Overwrite Rules */
-
-@import './bootstrap/stylesheets/_bootstrap.scss';
+@import './include/_myVariables';
+@import './bootstrap/stylesheets/_bootstrap';
+@import './include/_custom';
 @import './vendor/SassMeister-input.scss';
-@import './_include/header.scss';
-@import './_include/planetListings.scss';
+@import './include/_header';
+@import './include/_planetListings';

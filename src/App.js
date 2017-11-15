@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Heading from './components/Heading';
 import Planets from './components/Planets';
 import SearchFilter from './components/SearchFilter';
+import AboutSection from './components/AboutSection';
 import './styles/App.css';
 
 class App extends Component {
@@ -47,8 +48,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Heading />
         <div className="container">
-          <Heading />
+          <AboutSection />
           <SearchFilter searchQuery={this.state.searchQuery}/>
           <Planets listingOfPlanets={this.state.listingOfPlanets}/>
         </div>

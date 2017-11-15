@@ -3,9 +3,7 @@ import PlanetListing from './PlanetListing';
 import SearchFilter from './SearchFilter';
 
 class Planets extends Component {
-  constructor(props){
-    super(props);
-  }
+
   render() {
     let planetListings = this.props.listingOfPlanets;
 

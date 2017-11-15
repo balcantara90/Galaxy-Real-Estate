@@ -1,0 +1,14 @@
+.app-header{
+    background: #fff;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    .app-header__title{
+        color: $brand-info;
+        font-family: $font-family-sans-serif;        
+        font-weight: 700;
+        border: 5px solid;
+        display: inline-block;
+        padding: 15px 10px 10px;
+    }
+}
