@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Heading from './components/Heading';
 import Planets from './components/Planets';
-import SearchFilter from './components/SearchFilter';
 import AboutSection from './components/AboutSection';
 import './styles/App.css';
 
@@ -51,8 +50,7 @@ class App extends Component {
         <Heading />
         <div className="container">
           <AboutSection />
-          <SearchFilter searchQuery={this.state.searchQuery}/>
-          <Planets listingOfPlanets={this.state.listingOfPlanets}/>
+          <Planets listingOfPlanets={this.state.listingOfPlanets} searchQuery={this.state.searchQuery}/>
         </div>
       </div>
     );
