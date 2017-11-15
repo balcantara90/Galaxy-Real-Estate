@@ -11,7 +11,7 @@ class PlanetListing extends Component {
                 <h3>{this.props.planet.name}</h3>
                 <p>{this.props.planet.description}</p>
                 <div className="planet-listings__planet__currency">
-                    <h4><i className="glyphicon glyphicon-bitcoin"></i>{this.props.planet.price} brapples</h4>
+                    <h4>Price: <i className="glyphicon glyphicon-bitcoin"></i>{this.props.planet.price} brapples</h4>
                 </div>
                 <a href="#">   
                     <button type="button" className="btn btn-default btn-md">
