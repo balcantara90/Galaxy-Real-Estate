@@ -29,7 +29,7 @@ class App extends Component {
           name : entry.title,
           img : entry.thumbnail,
           description: entry.abstract,
-          price: "0.5"
+          price: entry.id
         })
       })
       this.setState ({
