@@ -12,7 +12,6 @@ class Planets extends Component {
     this.setState({searchQuery:e.target.value});
   }
   render() {
-    // let planetListings = this.props.listingOfPlanets;
 
     // Filter planets by name
      let planetsQueriedBySearch = this.props.listingOfPlanets.filter(
