@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import Heading from './components/Heading';
 import Planets from './components/Planets';
 import AboutSection from './components/AboutSection';
+import Request from 'superagent';
 import './styles/App.css';
 
 class App extends Component {
   constructor(){
     super(); 
     this.state = {
+      planets: '',
       searchQuery: '',
       listingOfPlanets: [
         {
@@ -44,9 +46,24 @@ class App extends Component {
     }
   }
 
+  componentWillMount() {
+    this.getPlanets();
+  }
+
+  getPlanets() {
+    let url = "http://rickandmorty.wikia.com/api/v1/Articles/Top?expand=1&category=planets&limit=15";
+
+    Request.get(url).then((response) => {
+      this.setState ({
+       planets: response.body.items
+      });
+    });
+
+  }
+
   render() {
     return (
-      <div className="App">
+      <div className="App hidden">
         <Heading />
         <div className="container">
           <AboutSection />

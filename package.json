@@ -8,7 +8,8 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17",
-    "shx": "^0.2.2"
+    "shx": "^0.2.2",
+    "superagent": "^3.8.2"
   },
   "scripts": {
     "prebuild-css": "shx cp -R node_modules/bootstrap-sass/assets src/styles/bootstrap",
