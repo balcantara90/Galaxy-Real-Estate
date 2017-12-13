@@ -19,7 +19,7 @@ class App extends Component {
   }
 
   getPlanets() {
-    let url = "http://rickandmorty.wikia.com/api/v1/Articles/Top?expand=1&category=planets&limit=15";
+    let url = "https://cors-anywhere.herokuapp.com/http://rickandmorty.wikia.com/api/v1/Articles/Top?expand=1&category=planets&limit=15";
     let newPlanetsArray = [];
 
     Request.get(url).then((response) => {
